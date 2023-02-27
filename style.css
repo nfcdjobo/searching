@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+    font-size: 1rem;
+    overflow-x:clip;
+}
+
+.contenaire{
+    margin: 50px auto;
+    width: 800px;
+    background-color: hsla(0, 4%, 22%, 0.308);
+    padding: 30px ;
+}
+
+.control-form{
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 0.25 solid rgb(0, 217, 255);
+    padding: 5px 15px;
+    min-width: 260px;
+}
+
+select{
+    margin-bottom: 5px;
+}
+
+.control-form:focus{
+    outline: none;
+    border: 0.25 solid rgb(0, 217, 255);
+}
+
+#resultat{
+    margin:15px;
+}
+

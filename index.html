@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>for...in & for...of</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="contenaire">
+            <label for="search">Search</label><br>
+            <input class="control-form" type="text" name="search" id="search"> <button id="go">Search</button>
+            
+            <div id="resultat">gh</div>
+            <label for="liste">Ajouter dans la liste:</label><br>
+            <select class="control-form" name="liste" id="liste">
+                <option selected value="">Choisir le type de la liste</option>
+                <option value="ordonnee">Ordonnée</option>
+                <option value="simple">Non ordonnée</option>
+            </select><br>
+            
+            <label for="insert">Insert</label><br>
+            <input class="control-form" type="text" id="insert"><br>
+            
+            <input class="" type="button" name="save" id="save" value="Save">
+            <p class="content">
+                <ol>
+                </ol>
+                <h3 id="ordre">Eléments ordonnés : <strong class="nombre"></strong></h3>
+            </p>
+
+            <p class="content">
+                <ul>
+                </ul>
+                <h3 id="non-ordre">Eléments non ordonnés : <strong class="nombre"></strong></h3>
+            </p>
+            <h1 id="total">Element total : <strong></strong></h1>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+    <!-- <script src="./jeux.js"></script> -->
+    <!-- <script src="./logique.js"></script> -->
+</html>
